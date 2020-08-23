@@ -10,13 +10,13 @@ h1 {
   font-family: 'Duru Sans', sans-serif;
   font-weight: bold;
   font-size: 100px;
+  margin-right: 25%;
 }
 
 p {
   margin-top: 0px;
   margin-bottom: 0px;
   margin-left: 0px;
-  padding: 5px;
 }
 
 mark {
@@ -44,14 +44,14 @@ a:hover {
 .main-window {
   background-color: #2e2e2e;
   padding: 20px;
-  margin: 25px;
+  margin: 20;
   margin-bottom: none;
 }
 
 .text-window {
   background-color: #3b383b;
   margin-left: 0px;
-  margin-right: 25%;
+  margin-right: 20%;
   margin-top: 10px;
   margin-bottom: 10px;
   padding: 10px;
@@ -62,15 +62,20 @@ a:hover {
   color: #453f3f;
   font-weight: bold;
   margin-left: 0px;
-  margin-right: 25%;
+  margin-right: 20%;
   margin-top: 10px;
   margin-bottom: 10px;
-  padding: 0px;
+  padding: 10px;
 }
 
 .side-bar {
-  background-color: #2e2e2e;
-  padding: 20px;
-  margin: 25px;
-  margin-bottom: none;
+  background-color: #3b383b;
+  padding: 10px;
+  margin: 0px;
+  margin-right: 0px;
+  overflow-x: hidden;
+  height: 160px;
+  width: 160px;
+  position: fixed;
+  right: 25px;
 }
