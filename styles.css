@@ -6,12 +6,13 @@ body {
 
 h1 {
   color: #a85ba6;
-  margin: 0px;
+  margin: auto;
   font-family: 'Gothic A1', sans-serif;
   font-weight: bold;
   font-size: 100px;
-  margin-right: 25%;
+  line-height: 100%;
 }
+
 
 p {
   margin-top: 0px;
@@ -43,8 +44,8 @@ a:hover {
 
 .main-window {
   background-color: #2e2e2e;
-  padding: 20px;
-  margin: 20;
+  padding: 1%;
+  padding-top: 1%;
   margin-bottom: none;
 }
 
@@ -53,7 +54,6 @@ a:hover {
   margin-left: 0px;
   margin-right: 20%;
   margin-top: 10px;
-  margin-bottom: 10px;
   padding: 10px;
 }
 
@@ -63,8 +63,6 @@ a:hover {
   font-weight: bold;
   margin-left: 0px;
   margin-right: 20%;
-  margin-top: 10px;
-  margin-bottom: 10px;
   padding: 10px;
 }
 
@@ -74,8 +72,8 @@ a:hover {
   margin: 0px;
   margin-right: 0px;
   overflow-x: hidden;
-  height: 160px;
-  width: 160px;
+  height: auto;
+  width: 15%;
   position: fixed;
-  right: 25px;
+  right: 15px;
 }
